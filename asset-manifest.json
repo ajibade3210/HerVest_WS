@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/HerVest_WS/static/css/main.c2593105.css",
-    "main.js": "/HerVest_WS/static/js/main.ddcaf9c5.js",
+    "main.css": "/HerVest_WS/static/css/main.dac12b33.css",
+    "main.js": "/HerVest_WS/static/js/main.68ab21d6.js",
     "static/media/garden.svg": "/HerVest_WS/static/media/garden.03dfaae7c2181ffb1aaa7c977bdaa63e.svg",
     "static/media/women.svg": "/HerVest_WS/static/media/women.319386d723e6f6600e5bbe17f1715e2b.svg",
     "static/media/awards.svg": "/HerVest_WS/static/media/awards.7fe30740d6432b97b6471c4d7a15f1dc.svg",
@@ -9,11 +9,11 @@
     "static/media/piggy.svg": "/HerVest_WS/static/media/piggy.7b0f19a3c72072792ae0e44a2520e5b1.svg",
     "static/media/logomini.svg": "/HerVest_WS/static/media/logomini.170e0b0749e066f7b07b5d3d129aa693.svg",
     "index.html": "/HerVest_WS/index.html",
-    "main.c2593105.css.map": "/HerVest_WS/static/css/main.c2593105.css.map",
-    "main.ddcaf9c5.js.map": "/HerVest_WS/static/js/main.ddcaf9c5.js.map"
+    "main.dac12b33.css.map": "/HerVest_WS/static/css/main.dac12b33.css.map",
+    "main.68ab21d6.js.map": "/HerVest_WS/static/js/main.68ab21d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2593105.css",
-    "static/js/main.ddcaf9c5.js"
+    "static/css/main.dac12b33.css",
+    "static/js/main.68ab21d6.js"
   ]
 }
