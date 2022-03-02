@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/HerVest_WS/static/css/main.9f590a27.css",
+    "main.css": "/HerVest_WS/static/css/main.78298e4d.css",
     "main.js": "/HerVest_WS/static/js/main.64aad71a.js",
     "static/media/garden.svg": "/HerVest_WS/static/media/garden.03dfaae7c2181ffb1aaa7c977bdaa63e.svg",
     "static/media/women.svg": "/HerVest_WS/static/media/women.319386d723e6f6600e5bbe17f1715e2b.svg",
@@ -9,11 +9,11 @@
     "static/media/piggy.svg": "/HerVest_WS/static/media/piggy.7b0f19a3c72072792ae0e44a2520e5b1.svg",
     "static/media/logomini.svg": "/HerVest_WS/static/media/logomini.170e0b0749e066f7b07b5d3d129aa693.svg",
     "index.html": "/HerVest_WS/index.html",
-    "main.9f590a27.css.map": "/HerVest_WS/static/css/main.9f590a27.css.map",
+    "main.78298e4d.css.map": "/HerVest_WS/static/css/main.78298e4d.css.map",
     "main.64aad71a.js.map": "/HerVest_WS/static/js/main.64aad71a.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f590a27.css",
+    "static/css/main.78298e4d.css",
     "static/js/main.64aad71a.js"
   ]
 }
