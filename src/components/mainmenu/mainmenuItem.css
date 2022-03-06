@@ -1,0 +1,60 @@
+.sidemenu .main-menu .main-item {
+  color: #7c7f93;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.sidemenu .main-menu .main-item.inactive {
+  margin-left: 0px;
+  font-size: 18px;
+}
+
+.sidemenu .main-menu .main-item span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  position: absolute;
+  display: inline-block;
+  line-height: 30px;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.5s ease-in;
+}
+
+.sidemenu .main-menu .main-item span:hover {
+  color: #e2698d;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.sidemenu.inactive .main-menu .main-item span {
+  /* display: none; */
+  /* visibility: hidden; */
+  opacity: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.sidemenu .main-menu .main-item .main-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.sidemenu .main-menu .main-item.inactive .main-icon {
+  font-size: 20px;
+}
+
+/* .sidemenu-footer {
+    margin-top: 5px;
+    width: 100px;
+    background: red;
+    height: 100px;
+} */

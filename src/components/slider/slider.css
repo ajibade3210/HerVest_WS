@@ -1,0 +1,152 @@
+#main-slider {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.slider {
+  width: 921px;
+  height: 100%;
+  white-space: nowrap;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+
+.slider.collapse {
+  width: 1100px;
+}
+
+#slider::-webkit-scrollbar {
+  display: none;
+}
+
+.content {
+  margin-bottom: 12px;
+  color: #727274;
+}
+
+.content-details h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.content-details p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.slider-icon.left,
+.slider-icon.right {
+  background: #fff;
+  color: #000;
+  border-radius: 100%;
+  font-size: 14px;
+  position: absolute;
+  padding: 6px;
+  opacity: 0.8;
+  box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 12%);
+  cursor: pointer;
+}
+
+.slider-icon.left:hover,
+.slider-icon.right:hover {
+  opacity: 1;
+  background: #f7c8c8;
+}
+
+.slider-icon.left {
+  left: 50;
+}
+
+.slider-icon.right {
+  right: 0px;
+}
+
+.slider-card {
+  width: 300px;
+  height: 173px;
+  background: #fff;
+  border-radius: 12px;
+  display: inline-block;
+  margin-left: 12px;
+  margin-right: 12px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+/* .slider.collapse .slider-card {
+    width: 350px;
+    margin-left: 24px;
+    margin-right: 24px;
+} */
+
+.slider-content {
+  margin-top: 15px;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+}
+
+.slider-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.slider-header .icon {
+  background: #c2eff0;
+  padding: 14px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.slider-header h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.slider-body {
+  width: 100%;
+  height: 100%;
+}
+
+.slider-body h3 {
+  color: #000;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.slider-body .loader {
+  height: 5px;
+  width: 270px;
+  border: 0.1px solid #dddddd;
+  border-radius: 2px;
+  margin-top: 14px;
+}
+
+.slider-body .loader .complete {
+  background: #265859;
+  height: 4px;
+  width: 112.26px;
+  border-radius: 2px;
+}
+
+@media only screen and (max-width: 994px) {
+  .slider {
+    width: 650px;
+  }
+
+  .slider.collapse {
+    width: 750px;
+  }
+}

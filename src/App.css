@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  color: #7c7f93;
+  font-family: "Montserrat", sans-serif;
+  background: #e5e5e5;
+}
+
+.App {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.container {
+  width: 100%;
+  margin-left: 300px;
+  transition: margin-left 0.2s ease-in;
+  padding: 35px;
+}
+
+.container.inactive {
+  margin-left: 85px;
+}
+
+@media only screen and (max-width: 994px) {
+  .container {
+    margin-left: 260px;
+  }
+
+  .container.inactive {
+    margin-left: 85px;
+  }
+}
